@@ -20,7 +20,7 @@ body {
   background-attachment: fixed;
   color: white;
   font-family: Quicksand, sans-serif;
-overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -47,12 +47,11 @@ ul {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  
 }
 
 /* Columns */
 .drag-column {
-  width:300px;
+  width: 300px;
   margin: 0 10px;
   position: relative;
   background-color: rgba(0, 0, 0, 0.4);
@@ -176,7 +175,8 @@ ul {
 }
 
 .solid {
-  display: none;
+  /* display: none; */
+  width: auto;
 }
 
 .solid:hover {
@@ -198,7 +198,7 @@ ul {
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.9);
   min-height: 100px;
-  display: none;
+  /* display: none; */
 }
 
 .add-item {
@@ -216,7 +216,6 @@ ul {
 .add-item:focus {
   outline: none;
 }
-
 
 /* Media Query: Laptop */
 @media screen and (max-width: 1800px) {
